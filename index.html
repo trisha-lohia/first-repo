@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <div class="container">
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="images/rock1.png" alt="rock">
+            </div>
+            <div class="choice" id="paper">
+                <img src="images/paper_normal.png" alt="paper">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="images/scissors_normal.png" alt="scissors">
+            </div>
+        </div>
+        <div class="score-board">
+            <div class="score-panel">
+                <h2 class="score"><span id="score-1">0</span> to <span id="score-2">0</span></h2>
+            </div>
+            <div class="score-msg">
+                <p id="alert-msg">CHOOSE YOUR WEAPON</p>
+            </div>
+            <div class="score-limit">
+                <label for="limit">Playing To </label>
+                <select id="limit" name="limit">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button id="reset">RESET</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
